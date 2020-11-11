@@ -27,6 +27,7 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+/* HEADER */
 header{
   height: 80vh;
   color: white;
@@ -46,6 +47,7 @@ header{
   color: white;
 }
 
+/* HEADER TOP SINISTRO */
 .header-left-nav{
   height: 10vh;
   padding: 0 20px;
@@ -62,6 +64,7 @@ header{
   height: 60px;
 }
 
+/* HEADER TOP CENTRO */
 .header-center-nav li{
   display: inline-block;
   height: 10vh;
@@ -69,6 +72,17 @@ header{
   padding: 0 20px;
 }
 
+.header-center-nav li:hover{
+  background-color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header-center-nav li:hover a{
+  color: green;
+}
+
+/* HEADER TOP DESTRO */
 .header-right-nav{
   height: 10vh;
   text-align: center;
@@ -99,6 +113,7 @@ header{
   border-radius: 3px;
 }
 
+/* HEADER BOTTOM */
 .header-bottom{
   height: 80vh;
 }
@@ -129,6 +144,14 @@ header{
   border-radius: 10px;
 }
 
+.scritta-piccola p.piano:hover{
+  background-color: white;
+  color: green;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* MAIN TOP */
 .main-top{
   height: 200px;
   background-color: lightgrey;
@@ -147,7 +170,7 @@ div.scritta-grigia{
   color: grey;
 }
 
-
+/* MAIN CENTRALE SOPRA */
 .main-top-centro{
   position: relative;
   top: 50%;
@@ -184,6 +207,11 @@ div.box div.scritta-verde{
   padding-top: 20px;
 }
 
+div.box div.scritta-verde:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 div.box div.paragrafo{
   font-size: 30px;
   text-align: center;
@@ -192,6 +220,7 @@ div.box div.paragrafo{
   padding-top: 20px;
 }
 
+/* MAIN CENTRALE SOTTO */
 section.main-centro-due{
   height: 75vh;
 }
@@ -225,7 +254,7 @@ div.scalata a{
   font-size: 30px;
 }
 
-
+/* FOOTER */
 footer{
   height: 200px;
   background-color: lightgrey;
@@ -255,5 +284,17 @@ div.visualizza{
 div.visualizza p.visualizza-qua{
   background-color: green;
   border-radius: 3px;
+}
+
+div.help{
+  width: 100px;
   height: 50px;
+  font-size: 30px;
+  position: relative;
+  bottom: 0;
+  right: 10vw;
+}
+
+div.help p{
+  background-color: green;
 }
